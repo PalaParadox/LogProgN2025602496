@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Reactivo 2"/>
+        <attribute name="authors" value="perro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 07:22:58 p. m."/>
+        <attribute name="created" value="cGVycm87REVTS1RPUC1ESDc2NkFQOzIwMjUtMDQtMDc7MDc6MTQ6MzQgcC4gbS47MzA1NA=="/>
+        <attribute name="edited" value="cGVycm87REVTS1RPUC1ESDc2NkFQOzIwMjUtMDQtMDc7MDc6MjI6NTggcC4gbS47MTszMTY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, sig, i" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="1"/>
+            <assign variable="num2" expression="2"/>
+            <output expression="num1" newline="True"/>
+            <output expression="num2" newline="True"/>
+            <for variable="i" start="3" end="64" direction="inc" step="1">
+                <assign variable="sig" expression="num1+num2"/>
+                <output expression="sig" newline="True"/>
+                <assign variable="num1" expression="num2"/>
+                <assign variable="num2" expression="sig"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Reactivo 1"/>
+        <attribute name="authors" value="perro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 07:08:50 p. m."/>
+        <attribute name="created" value="cGVycm87REVTS1RPUC1ESDc2NkFQOzIwMjUtMDQtMDc7MDY6NDI6NDggcC4gbS47MzA1OQ=="/>
+        <attribute name="edited" value="cGVycm87REVTS1RPUC1ESDc2NkFQOzIwMjUtMDQtMDc7MDc6MDg6NTAgcC4gbS47MTszMTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="factorial, num, i" type="Integer" array="False" size=""/>
+            <assign variable="factorial" expression="1"/>
+            <output expression="&quot;Coloque el n&#250;mero deseado: &quot;" newline="True"/>
+            <input variable="num"/>
+            <for variable="i" start="1" end="num" direction="inc" step="1">
+                <assign variable="factorial" expression="factorial*i"/>
+            </for>
+            <output expression="Factorial" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
